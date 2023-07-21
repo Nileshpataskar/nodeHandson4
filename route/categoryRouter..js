@@ -1,6 +1,6 @@
 const { bollywood } = require("../controller/bollywood");
 const { category } = require("../controller/categoryController");
-const fitness = require("../controller/fitness");
+const { fitness } = require("../controller/fit");
 const { food } = require("../controller/food");
 const { hollywood } = require("../controller/hollywood");
 const { technology } = require("../controller/technology");
