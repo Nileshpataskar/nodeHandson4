@@ -8,8 +8,8 @@ const app = express();
 const cors = require("cors");
 app.use(cors({ origin: "*" }));
 app.use(express.json());
-app.use("/api", categoryRouter);
-app.use("/api/user", userRouter);
+app.use("/", categoryRouter);
+app.use("/user", userRouter);
 app.listen(3600, () => {
   console.log("Server started");
 });
