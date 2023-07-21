@@ -560,4 +560,4 @@ const fitness=(req,res)=>{
         "content": "SuperPark is enjoyed by its patrons all over the world for its fun and high-energy indoor activities that can be enjoyed by people of all ages. SuperPark Philippines\r\nKEY POINTS\r\n<ul><li>Two SuperPar… [+3789 chars]"
       }]
 };
-module.exports = fitness
+module.exports = {fitness}
